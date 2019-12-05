@@ -1206,7 +1206,7 @@ export declare class XPublisher extends Socket {
      *  * `"allSubsUnsubs"` – All subscribe and unsubscribe messages (including
      *    duplicates) are visible to the caller.
      */
-    set verbosity(value: null | "allSubs" | "allSubsUnsubs");
+    verbosity: null | "allSubs" | "allSubsUnsubs";
     constructor(options?: SocketOptions<XPublisher>);
 }
 export interface XPublisher extends Readable, Writable {

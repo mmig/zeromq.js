@@ -63,7 +63,7 @@ declare class Socket extends EventEmitter {
     pause(): void;
     resume(): void;
     close(): this;
-    get closed(): boolean;
+    readonly closed: boolean;
     monitor(interval: number, num: number): this;
     unmonitor(): this;
     subscribe(filter: string): this;
