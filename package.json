@@ -44,7 +44,7 @@
     "prettier": "^1.19.1",
     "semver": ">= 0",
     "tar-fs": "^2.0.0",
-    "ts-morph": "^6.0.2",
+    "ts-morph": "^7.0.0",
     "ts-node": ">= 7",
     "typescript": ">= 3.6",
     "weak-napi": ">= 1.0"
@@ -59,8 +59,7 @@
     "binding.gyp",
     "draft.d.ts",
     "draft.js",
-    "lib/*.d.ts",
-    "lib/*.js",
+    "lib",
     "src/util/*.h",
     "src/*.cc",
     "src/*.h",
